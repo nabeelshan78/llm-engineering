@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python)
 ![Frameworks](https://img.shields.io/badge/Frameworks-PyTorch_|_Transformers_|_NLTK-orange?style=for-the-badge)
 
-A curated collection of hands-on projects exploring the fundamental building blocks of Natural Language Processing (NLP) and Large Language Models (LLMs). This repository is designed for aspiring AI/ML engineers and researchers to gain a deep, practical understanding of core concepts from the ground up.
+A curated collection of hands-on projects exploring the fundamental building blocks of Natural Language Processing (NLP) and Large Language Models (LLMs).
 
 ---
 
