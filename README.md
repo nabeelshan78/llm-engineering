@@ -12,6 +12,7 @@ A curated collection of hands-on projects exploring the fundamental building blo
 2.  [**Exploring Tokenization**](#2-exploring-tokenization): A deep dive into tokenization from classic methods to modern subword algorithms.
 3.  [**NLP Data Pipelines with PyTorch**](#3-nlp-data-pipelines-with-pytorch): Engineering robust data loaders for NLP tasks.
 4.  [**Chatting with LLMs**](#4-chatting-with-llms): Interacting with pre-trained models using the Hugging Face ecosystem.
+5.  [**Hugging Face Inference: From Manual Steps to the `pipeline()`**](#5-hugging-face-inference-from-manual-steps-to-the-pipeline): Contrasting manual inference with the high-level `pipeline()` function.
 
 ---
 
@@ -164,4 +165,23 @@ def chat_with_bot():
 chat_with_bot()
 
 ```
+
+
+## 5. Hugging Face Inference: From Manual Steps to the `pipeline()`
+
+**Notebook:** `practical_guide_to_nlp_with_transformers.ipynb`
+
+A hands-on guide to performing inference with the Hugging Face `transformers` library. This notebook introduces the two primary workflows for using pre-trained models, contrasting the detailed, manual process with the powerful, high-level `pipeline()` function for a variety of common NLP tasks.
+
+### Approaches Demonstrated:
+- **Manual Inference:** The foundational, step-by-step process of loading a tokenizer and model, preparing inputs, running inference, and manually post-processing the outputs to get a final result.
+- **The `pipeline()` Function:** A high-level abstraction that simplifies the entire inference process into just two lines of code, automatically handling tokenization, inference, and decoding.
+
+### Tasks Covered:
+- **Text Classification** with `DistilBERT`
+- **Text Generation** with `GPT-2` and `T5`
+- **Fill-Mask** with `BERT`
+- **Language Detection** with `XLM-Roberta`
+
+---
 
